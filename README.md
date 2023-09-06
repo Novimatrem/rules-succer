@@ -5,7 +5,9 @@
 # Requirements
 
 perl
+
 wget
+
 lynx
 
 # Usage
