@@ -4,7 +4,7 @@
 
 # Usage
 
-Put this in your world's root folder, next to ipban.txt, players.sqlite, etc.
+Put all 3 of these files in your world's root folder, next to ipban.txt, players.sqlite, etc.
 
 Have the ``news``mod installed, so something will be there to SHOW this file.
 
