@@ -2,6 +2,12 @@
 
 ## Sucks the rules from jlamothe.net/minetest, and puts them in the exact format needed for the 'news' mod.
 
+# Requirements
+
+perl
+wget
+lynx
+
 # Usage
 
 Put all 3 of these files in your world's root folder, next to ipban.txt, players.sqlite, etc.
