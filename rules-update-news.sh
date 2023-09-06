@@ -43,11 +43,9 @@ sed 's/*//g' out4.txt > out5.txt
 
 # thank you mpy on superuser for this script.
 chmod +x ./thanks-superuser
-./thanks-superuser "Server Guidelines" "on my website." < out5.txt > out6.txt
+perl ./thanks-superuser "Server Guidelines" "on my website." < out5.txt > out6.txt
 
-echo ""
-echo "Finished. news.txt is up to date, and correctly formed for the game. It goes in your world folder's root, next to ipban.txt, players.sqlite, etc."
-echo ""
+cat out6.txt > news.txt
 
 # cleanup my mess
 rm -rf out.txt
@@ -55,10 +53,14 @@ rm -rf out2.txt
 rm -rf out3.txt
 rm -rf out4.txt
 rm -rf out5.txt
-rm -rf out6.txt
 rm -rf rules-section-as-code.txt
 rm -rf lynxout.txt
+rm -rf out6.txt
 rm -rf index.html
 
-# EOF
+echo ""
+echo "Finished. news.txt is up to date, and correctly formed for the game. It goes in your world folder's root, next to ipban.txt, players.sqlite, etc."
+echo ""
 
+
+# EOF
